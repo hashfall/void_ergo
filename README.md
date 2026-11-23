@@ -77,6 +77,14 @@ A fork containing the QMK config files can be found [here](https://github.com/vi
 
 If you plan on using the VIA configurator dont forget to download the json definitions file linked in this repository.
 
+# Raspberry Pi Pico (RP2040) port
+
+A QMK port running on two Raspberry Pi Pico boards (one per half) lives in
+[Firmware/qmk/keyboards/handwired/void_ergo_pico](Firmware/qmk/keyboards/handwired/void_ergo_pico).
+The pin assignment, split wiring and power notes are in
+[WIRING.md](Firmware/qmk/keyboards/handwired/void_ergo_pico/WIRING.md). Note that
+the Pico is larger than a Pro Micro, so the case needs to be adapted.
+
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
